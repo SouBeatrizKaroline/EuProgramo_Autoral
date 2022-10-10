@@ -1,0 +1,195 @@
+body{
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 auto;
+    background: #B626C2;
+}
+
+nav{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+nav>ul{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 75px;
+
+    position: absolute;
+    left: 75px;
+    top: 33px;
+}
+
+nav>ul>li{
+    list-style-type: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+
+}
+
+nav>ul>li>a{
+    text-decoration: none;
+    color: white;
+}
+
+#inicio{
+    position: absolute;
+    width: 100%;
+    height: 768px;
+    left: 0px;
+    top: 100px;
+
+    background: #511170;
+
+    display: flex;
+    flex-direction: row;
+    align-items: inherit;
+    padding: 0px;
+    gap: 100px;
+
+    padding: 0% auto;
+    margin: 0% auto;
+}
+
+#nome>h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 116px;
+}
+
+#nome>h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+/* margin-top, margin-right, margin-bottom e margin-left */
+
+#nome{
+    color: white;
+    align-items: flex-start;
+    text-align: center;
+    margin: auto 0 auto 46px;
+}
+
+#foto{
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: center;
+    margin: auto 0 auto 46px;
+}
+
+#projetosinicio{
+    position: absolute;
+    width: 1366px;
+    height: 768px;
+    left: 0px;
+    top: 868px;
+
+    background: #B626C2;
+
+    display: flex;
+    flex-direction: row;
+    align-items: inherit;
+    padding: 0px;
+    gap: 32px;
+
+    padding: 0% auto;
+    margin: 0% auto;
+}
+
+#boxone{
+    text-align: start;
+    margin: auto 0px auto 33px;
+    padding: 0 auto;
+}
+
+#boxone>img{
+   margin: 12px;
+}
+
+#boxtwo{
+    text-align: start;
+    margin: auto 0px auto 33px;
+    padding: 0 auto;
+}
+
+#boxtwo>img{
+    margin: 12px;
+}
+
+#boxthree{
+    margin: auto33px auto 33px0;
+    text-align: center;
+    margin-top: 65px;
+    
+}
+
+#sobremim{
+    position: absolute;
+    width: 100%;
+    height: 768px;
+    left: 0px;
+    top: 1636px;
+
+    background: #511170;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#sobremim>h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+
+    color: #FFFFFF;
+    margin-bottom: 0;
+}
+
+#trajetoria{
+    height: 600px;
+    margin-top: 25px;
+}
+
+footer{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    left: 0px;
+    top: 2404px;
+
+    background: #B626C2;
+}
+
+#redessociais{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    margin-left: 32px;
+    margin-top: 8px;
+}
+
+#feitopor{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: -32px 32px 0 0;
+}
+
